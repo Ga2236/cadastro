@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadstrar Usuario</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <meta charset="utf-8">
+</head>
+<body>
+<form action="validar.html" style="border:1px solid #ccc">
+  <div class="container">
+    <div align="center">
+    <h1>Sign Up</h1>
+    <p>Por favor, preencha este formulário para criar uma conta.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br>
+    <br>
+    <label for="psw"><b>Senha</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <br>
+    <div align="center">
+    <label for="psw-repeat"><b>Repita a senha</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Guardar senha
+    </label>
+
+    <p>Ao criar uma conta, você concorda com nossos <a href="#" style="color:dodgerblue">Termos & Privacidade</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">cancela</button>
+      <button type="submit" class="signupbtn">Inscrever-se</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
